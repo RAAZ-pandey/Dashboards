@@ -42,6 +42,8 @@ This dashboard presents a comprehensive view of road accident statistics, offeri
 ## 📷 Dashboard Preview
 
 ![Road Accident Dashboard Preview](Dashboard_snapshot.png)
+![Road Accident Dashboard Preview](Dashboard_snapshot1.png)
+![Road Accident Dashboard Preview](Dashboard_snapshot2.png)
 
 ---
 
