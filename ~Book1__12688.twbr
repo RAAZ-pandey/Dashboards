@@ -1,0 +1,2595 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0313.2002                               -->
+<workbook original-version='18.1' source-build='2025.1.0 (20251.25.0313.2002)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Indian_Election_2019' inline='true' name='federated.1hza6es1hcoyhz14le1q10y640u4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Indian_Election_2019' name='textscan.0c2poan11vxv691gd8m8e1gjlhd3'>
+            <connection class='textscan' directory='C:/Users/GODFATHER07/Downloads' filename='Indian_Election_2019.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0c2poan11vxv691gd8m8e1gjlhd3' name='Indian_Election_2019.csv' table='[Indian_Election_2019#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='State' ordinal='0' />
+            <column datatype='string' name='Constituency' ordinal='1' />
+            <column datatype='string' name='Candidate' ordinal='2' />
+            <column datatype='integer' name='Winner' ordinal='3' />
+            <column datatype='string' name='Party' ordinal='4' />
+            <column datatype='string' name='SYMBOL' ordinal='5' />
+            <column datatype='string' name='Gender' ordinal='6' />
+            <column datatype='string' name='CRIMINAL CASES' ordinal='7' />
+            <column datatype='real' name='Age' ordinal='8' />
+            <column datatype='string' name='CATEGORY' ordinal='9' />
+            <column datatype='string' name='Education' ordinal='10' />
+            <column datatype='string' name='ASSETS' ordinal='11' />
+            <column datatype='string' name='LIABILITIES' ordinal='12' />
+            <column datatype='integer' name='General Votes' ordinal='13' />
+            <column datatype='integer' name='Postal Votes' ordinal='14' />
+            <column datatype='integer' name='Total Votes' ordinal='15' />
+            <column datatype='real' name='OVER TOTAL ELECTORS  IN CONSTITUENCY' ordinal='16' />
+            <column datatype='real' name='OVER TOTAL VOTES POLLED  IN CONSTITUENCY' ordinal='17' />
+            <column datatype='integer' name='Total Electors' ordinal='18' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Constituency</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Constituency]</local-name>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Constituency</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Candidate</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Candidate]</local-name>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Candidate</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Winner</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Winner]</local-name>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Winner</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Party</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Party]</local-name>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Party</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SYMBOL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SYMBOL]</local-name>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias>SYMBOL</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CRIMINAL CASES</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CRIMINAL CASES]</local-name>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias>CRIMINAL CASES</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CATEGORY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CATEGORY]</local-name>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias>CATEGORY</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Education]</local-name>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Education</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ASSETS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ASSETS]</local-name>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias>ASSETS</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LIABILITIES</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LIABILITIES]</local-name>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias>LIABILITIES</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>General Votes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[General Votes]</local-name>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias>General Votes</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Postal Votes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Postal Votes]</local-name>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Postal Votes</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Votes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Votes]</local-name>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Total Votes</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OVER TOTAL ELECTORS  IN CONSTITUENCY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OVER TOTAL ELECTORS  IN CONSTITUENCY]</local-name>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias>OVER TOTAL ELECTORS  IN CONSTITUENCY</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OVER TOTAL VOTES POLLED  IN CONSTITUENCY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OVER TOTAL VOTES POLLED  IN CONSTITUENCY]</local-name>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias>OVER TOTAL VOTES POLLED  IN CONSTITUENCY</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Electors</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Electors]</local-name>
+            <parent-name>[Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Total Electors</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Assets' datatype='string' name='[ASSETS]' role='dimension' type='nominal' />
+      <column caption='Category' datatype='string' name='[CATEGORY]' role='dimension' type='nominal' />
+      <column caption='Criminal Cases' datatype='string' name='[CRIMINAL CASES]' role='dimension' type='nominal' />
+      <column caption='is Winner' datatype='boolean' name='[Calculation_1238771375252180994]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[Total Votes] = [Calculation_1238771375322914823]' />
+      </column>
+      <column caption='Age group' datatype='string' name='[Calculation_1238771375310983174]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Age] &gt;= 18 AND [Age] &lt;= 25 THEN &quot;18–25&quot;&#13;&#10;ELSEIF [Age] &gt;= 26 AND [Age] &lt;= 35 THEN &quot;26–35&quot;&#13;&#10;ELSEIF [Age] &gt;= 36 AND [Age] &lt;= 45 THEN &quot;36–45&quot;&#13;&#10;ELSEIF [Age] &gt;= 46 AND [Age] &lt;= 60 THEN &quot;46–60&quot;&#13;&#10;ELSEIF [Age] &gt; 60 THEN &quot;60+&quot;&#13;&#10;ELSE &quot;Unknown&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Max votes per constituency' datatype='integer' name='[Calculation_1238771375322914823]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [Constituency]: MAX([Total Votes]) }' />
+      </column>
+      <column caption='IS winners' datatype='boolean' name='[Calculation_1238771375323275272]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[Total Votes] = [Calculation_1238771375322914823]' />
+      </column>
+      <column caption='Winning Rate' datatype='real' name='[Calculation_892838629601964032]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Winner]) / COUNT([Candidate]) * 100' />
+      </column>
+      <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+      <column caption='Liabilities' datatype='string' name='[LIABILITIES]' role='dimension' type='nominal' />
+      <column caption='Over Total Electors  In Constituency' datatype='real' name='[OVER TOTAL ELECTORS  IN CONSTITUENCY]' role='measure' type='quantitative' />
+      <column caption='Over Total Votes Polled  In Constituency' datatype='real' name='[OVER TOTAL VOTES POLLED  IN CONSTITUENCY]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Party]' role='dimension' type='nominal' />
+      <column caption='Symbol' datatype='string' name='[SYMBOL]' role='dimension' type='nominal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Indian_Election_2019.csv' datatype='table' name='[__tableau_internal_object_id__].[Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_1238771375310983174]' derivation='None' name='[none:Calculation_1238771375310983174:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Party]' derivation='None' name='[none:Party:nk]' pivot='key' type='nominal' />
+      <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Gender:nk]' palette='sf_color_safe' type='palette'>
+            <map to='#08916d'>
+              <bucket>&quot;nan&quot;</bucket>
+            </map>
+            <map to='#529ee0'>
+              <bucket>&quot;FEMALE&quot;</bucket>
+            </map>
+            <map to='#d9a6c2'>
+              <bucket>&quot;MALE&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:State:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Daman &amp; Diu&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Rajasthan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Andaman &amp; Nicobar Islands&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Manipur&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Bihar&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;NCT OF Delhi&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Himachal Pradesh&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Tripura&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Goa&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sikkim&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Chandigarh&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Odisha&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Madhya Pradesh&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Andhra Pradesh&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Meghalaya&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Kerala&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Chhattisgarh&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Puducherry&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Jammu &amp; Kashmir&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Uttar Pradesh&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Jharkhand&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Uttarakhand&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Lakshadweep&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Maharashtra&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Gujarat&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tamil Nadu&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Dadra &amp; Nagar Haveli&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Punjab&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Arunachal Pradesh&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Mizoram&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Karnataka&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;West Bengal&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Haryana&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Telangana&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Assam&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Nagaland&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_1238771375310983174:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;46–60&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Unknown&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;26–35&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;36–45&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;18–25&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;60+&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Party:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;AIADMK&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;BLSD&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;INLD&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;KEC(M)&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;PMP&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SDF&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;VSIP&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;AAM&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;ASDC&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;CPIM&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;JKP&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;NEINDP&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;RSOSP&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;TMC(M)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;ADAL&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BJD&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;GGP&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;JnP&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;NTK&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;RVNP&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;VBA&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;AIPF&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;BOPF&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;JAPL&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MADP&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;PSPL&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SKM&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;YSRCP&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;AIFB&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;BLSP&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;IPFT&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;LIP&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;PPA&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;SDPI&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;WAP&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;AGP&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;BJKVP&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;HAMS&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;JPC&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;PDP&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SAD&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;VCK&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;ANC&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;CPI(M)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;JKN&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;NCP&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;RLTP&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;TDP&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;AAP&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;BARESP&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;DMDK&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;JKPDP&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;NOTA&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;RSP&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;TRS&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;AJSUP&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;BTP&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;JDR&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;MSHP&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;RJD&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SUCI(C)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;AHFBK&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BJP&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;INC&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;JVM&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;PHJSP&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SAD(M)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;VCSMP&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;AITC&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;BRPI&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;JD(S)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;MNF&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;PUNEKP&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SP&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;AIUDF&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;BSCP&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;JD(U)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;MNM&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;RAHIS&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SPL&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;AKBMP&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;BVA&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;JHP&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;NAWPP&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;RLD&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;SWP&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;APoI&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;CPI(ML)(L)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;JKNPP&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;NDPP&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;RMPOI&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;TJS&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;AIMIM&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;BMUP&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;IUML&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;LJP&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;PPID&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SHS&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;WPOI&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;AHNP&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;BLRP&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;IND&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;KEC&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;PMK&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SBSP&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;VPI&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ABGP&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;BBMP&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;DMK&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;JMM&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;NPEP&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;RSPSR&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;UDP&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;AJPR&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;BSP&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;JDL&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;MOSP&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;ravp&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SSD&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;AINRC&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;BNDl&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;JANADIP&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;LTSP&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;PRISMP&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SJDD&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;YKP&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;ABSKP&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;BDJS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;DSSP&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;JNJP&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;NPF&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;RTORP&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;UPPL&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Indian_Election_2019.csv' id='Indian_Election_2019.csv_FFFBAB72F52F4FCD8633CB970E345053'>
+            <properties context=''>
+              <relation connection='textscan.0c2poan11vxv691gd8m8e1gjlhd3' name='Indian_Election_2019.csv' table='[Indian_Election_2019#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='State' ordinal='0' />
+                  <column datatype='string' name='Constituency' ordinal='1' />
+                  <column datatype='string' name='Candidate' ordinal='2' />
+                  <column datatype='integer' name='Winner' ordinal='3' />
+                  <column datatype='string' name='Party' ordinal='4' />
+                  <column datatype='string' name='SYMBOL' ordinal='5' />
+                  <column datatype='string' name='Gender' ordinal='6' />
+                  <column datatype='string' name='CRIMINAL CASES' ordinal='7' />
+                  <column datatype='real' name='Age' ordinal='8' />
+                  <column datatype='string' name='CATEGORY' ordinal='9' />
+                  <column datatype='string' name='Education' ordinal='10' />
+                  <column datatype='string' name='ASSETS' ordinal='11' />
+                  <column datatype='string' name='LIABILITIES' ordinal='12' />
+                  <column datatype='integer' name='General Votes' ordinal='13' />
+                  <column datatype='integer' name='Postal Votes' ordinal='14' />
+                  <column datatype='integer' name='Total Votes' ordinal='15' />
+                  <column datatype='real' name='OVER TOTAL ELECTORS  IN CONSTITUENCY' ordinal='16' />
+                  <column datatype='real' name='OVER TOTAL VOTES POLLED  IN CONSTITUENCY' ordinal='17' />
+                  <column datatype='integer' name='Total Electors' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='Top N' datatype='integer' name='[Parameter 1]' param-domain-type='range' role='measure' type='quantitative' value='1'>
+        <calculation class='tableau' formula='1' />
+        <range granularity='1' max='133' min='1' />
+      </column>
+    </datasource>
+    <datasource caption='Cleaned_Indian_Election_2019' inline='true' name='federated.0l48i4p169rord10mpow21ptv2f1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Cleaned_Indian_Election_2019' name='textscan.185gaad0nedq4n1ghj8md1k6m700'>
+            <connection class='textscan' directory='C:/Users/GODFATHER07/Downloads' filename='Cleaned_Indian_Election_2019.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.185gaad0nedq4n1ghj8md1k6m700' name='Cleaned_Indian_Election_2019.csv' table='[Cleaned_Indian_Election_2019#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='State' ordinal='0' />
+            <column datatype='string' name='Constituency' ordinal='1' />
+            <column datatype='string' name='Candidate' ordinal='2' />
+            <column datatype='integer' name='Winner' ordinal='3' />
+            <column datatype='string' name='Party' ordinal='4' />
+            <column datatype='string' name='SYMBOL' ordinal='5' />
+            <column datatype='string' name='Gender' ordinal='6' />
+            <column datatype='integer' name='CRIMINAL CASES' ordinal='7' />
+            <column datatype='real' name='Age' ordinal='8' />
+            <column datatype='string' name='CATEGORY' ordinal='9' />
+            <column datatype='string' name='Education' ordinal='10' />
+            <column datatype='string' name='ASSETS' ordinal='11' />
+            <column datatype='string' name='LIABILITIES' ordinal='12' />
+            <column datatype='integer' name='General Votes' ordinal='13' />
+            <column datatype='integer' name='Postal Votes' ordinal='14' />
+            <column datatype='integer' name='Total Votes' ordinal='15' />
+            <column datatype='real' name='OVER TOTAL ELECTORS  IN CONSTITUENCY' ordinal='16' />
+            <column datatype='real' name='OVER TOTAL VOTES POLLED  IN CONSTITUENCY' ordinal='17' />
+            <column datatype='integer' name='Total Electors' ordinal='18' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Constituency</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Constituency]</local-name>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Constituency</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Candidate</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Candidate]</local-name>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Candidate</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Winner</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Winner]</local-name>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Winner</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Party</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Party]</local-name>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Party</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SYMBOL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SYMBOL]</local-name>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias>SYMBOL</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CRIMINAL CASES</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CRIMINAL CASES]</local-name>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias>CRIMINAL CASES</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CATEGORY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CATEGORY]</local-name>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias>CATEGORY</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Education]</local-name>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Education</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ASSETS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ASSETS]</local-name>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias>ASSETS</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LIABILITIES</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LIABILITIES]</local-name>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias>LIABILITIES</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>General Votes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[General Votes]</local-name>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias>General Votes</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Postal Votes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Postal Votes]</local-name>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Postal Votes</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Votes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Votes]</local-name>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Total Votes</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OVER TOTAL ELECTORS  IN CONSTITUENCY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OVER TOTAL ELECTORS  IN CONSTITUENCY]</local-name>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias>OVER TOTAL ELECTORS  IN CONSTITUENCY</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OVER TOTAL VOTES POLLED  IN CONSTITUENCY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OVER TOTAL VOTES POLLED  IN CONSTITUENCY]</local-name>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias>OVER TOTAL VOTES POLLED  IN CONSTITUENCY</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Electors</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Electors]</local-name>
+            <parent-name>[Cleaned_Indian_Election_2019.csv]</parent-name>
+            <remote-alias>Total Electors</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.0l48i4p169rord10mpow21ptv2f1].[sum:Winner:qk]&quot;' value='Winner candidates' />
+        </aliases>
+      </column>
+      <column caption='Assets' datatype='string' name='[ASSETS]' role='dimension' type='nominal' />
+      <column caption='Category' datatype='string' name='[CATEGORY]' role='dimension' type='nominal' />
+      <column caption='Criminal Cases' datatype='integer' name='[CRIMINAL CASES]' role='dimension' type='ordinal' />
+      <column caption='Total Votes Cast' datatype='integer' name='[Calculation_1571474863274082304]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Total Votes])' />
+      </column>
+      <column caption='Total Candidates' datatype='integer' name='[Calculation_1571474863274528769]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD([Candidate])' />
+      </column>
+      <column caption='Parties Participated' datatype='integer' name='[Calculation_1571474863274745858]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD([Party])' />
+      </column>
+      <column caption='Winning Candidates' datatype='string' name='[Calculation_1571474863286558726]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='if [Winner] = 1 THEN [Candidate] END' />
+      </column>
+      <column caption='Ranked Parties' datatype='integer' name='[Calculation_1571474863294910471]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='RANK(SUM([Total Votes]),&apos;desc&apos;)'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Top N filter' datatype='string' name='[Calculation_1571474863295426568]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF RANK(SUM([Total Votes]), &apos;desc&apos;) &lt;= [Parameters].[Parameter 1] THEN &quot;Show&quot; ELSE &quot;Hide&quot; END'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Votes Percentage' datatype='real' name='[Calculation_1571474863296794633]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Total Votes])/TOTAL(SUM([Total Votes]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Dummy' datatype='integer' name='[Calculation_787285511606149120]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='0' />
+      </column>
+      <column caption='winning rate' datatype='real' name='[Calculation_787285511942127617]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='' />
+      </column>
+      <column caption='Winning Rate' datatype='real' name='[Calculation_787285511942340610]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Winner]) / COUNT([Candidate]) * 100' />
+      </column>
+      <column caption='Candidates per Party' datatype='integer' name='[Calculation_787285511947452419]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([Candidate])' />
+      </column>
+      <column caption='Age Group' datatype='string' name='[Calculation_787285511952433156]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Age] &lt; 26 THEN &quot;18-25&quot;&#13;&#10;ELSEIF [Age] &lt; 41 THEN &quot;26-40&quot;&#13;&#10;ELSEIF [Age] &lt; 61 THEN &quot;41-60&quot;&#13;&#10;ELSE &quot;60+&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Percentage of total votes' datatype='real' name='[Calculation_787285511953977349]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='' />
+      </column>
+      <column caption='Liabilities' datatype='string' name='[LIABILITIES]' role='dimension' type='nominal' />
+      <column caption='Over Total Electors  In Constituency' datatype='real' name='[OVER TOTAL ELECTORS  IN CONSTITUENCY]' role='measure' type='quantitative' />
+      <column caption='Over Total Votes Polled  In Constituency' datatype='real' name='[OVER TOTAL VOTES POLLED  IN CONSTITUENCY]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Party]' role='dimension' type='nominal' />
+      <column caption='Symbol' datatype='string' name='[SYMBOL]' role='dimension' type='nominal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='integer' name='[Winner]' role='measure' type='quantitative' />
+      <column caption='Cleaned_Indian_Election_2019.csv' datatype='table' name='[__tableau_internal_object_id__].[Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B]' role='measure' type='quantitative' />
+      <column-instance column='[Party]' derivation='None' name='[none:Party:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Winner]' derivation='Sum' name='[sum:Winner:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Party:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;BJP&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;AITC&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;INC&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='Top N' datatype='integer' name='[Parameter 1]' param-domain-type='range' role='measure' type='quantitative' value='1'>
+          <calculation class='tableau' formula='1' />
+          <range granularity='1' max='133' min='1' />
+        </column>
+      </datasource-dependencies>
+      <object-graph>
+        <objects>
+          <object caption='Cleaned_Indian_Election_2019.csv' id='Cleaned_Indian_Election_2019.csv_8A973ED33E6D40F9A796E6B58D77C48B'>
+            <properties context=''>
+              <relation connection='textscan.185gaad0nedq4n1ghj8md1k6m700' name='Cleaned_Indian_Election_2019.csv' table='[Cleaned_Indian_Election_2019#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='State' ordinal='0' />
+                  <column datatype='string' name='Constituency' ordinal='1' />
+                  <column datatype='string' name='Candidate' ordinal='2' />
+                  <column datatype='integer' name='Winner' ordinal='3' />
+                  <column datatype='string' name='Party' ordinal='4' />
+                  <column datatype='string' name='SYMBOL' ordinal='5' />
+                  <column datatype='string' name='Gender' ordinal='6' />
+                  <column datatype='integer' name='CRIMINAL CASES' ordinal='7' />
+                  <column datatype='real' name='Age' ordinal='8' />
+                  <column datatype='string' name='CATEGORY' ordinal='9' />
+                  <column datatype='string' name='Education' ordinal='10' />
+                  <column datatype='string' name='ASSETS' ordinal='11' />
+                  <column datatype='string' name='LIABILITIES' ordinal='12' />
+                  <column datatype='integer' name='General Votes' ordinal='13' />
+                  <column datatype='integer' name='Postal Votes' ordinal='14' />
+                  <column datatype='integer' name='Total Votes' ordinal='15' />
+                  <column datatype='real' name='OVER TOTAL ELECTORS  IN CONSTITUENCY' ordinal='16' />
+                  <column datatype='real' name='OVER TOTAL VOTES POLLED  IN CONSTITUENCY' ordinal='17' />
+                  <column datatype='integer' name='Total Electors' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Criminal Cases by Party'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontsize='16'>Criminal Cases by Party</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Cleaned_Indian_Election_2019' name='federated.0l48i4p169rord10mpow21ptv2f1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0l48i4p169rord10mpow21ptv2f1'>
+            <column caption='Criminal Cases' datatype='integer' name='[CRIMINAL CASES]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Party]' role='dimension' type='nominal' />
+            <column-instance column='[Party]' derivation='None' name='[none:Party:nk]' pivot='key' type='nominal' />
+            <column-instance column='[CRIMINAL CASES]' derivation='Sum' name='[sum:CRIMINAL CASES:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0l48i4p169rord10mpow21ptv2f1].[none:Party:nk]'>
+            <groupfilter count='12' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([CRIMINAL CASES])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Party:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0l48i4p169rord10mpow21ptv2f1].[none:Party:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;BJP&quot;</bucket>
+              <bucket>&quot;INC&quot;</bucket>
+              <bucket>&quot;BSP&quot;</bucket>
+              <bucket>&quot;CPI(M)&quot;</bucket>
+              <bucket>&quot;IND&quot;</bucket>
+              <bucket>&quot;SP&quot;</bucket>
+              <bucket>&quot;SHS&quot;</bucket>
+              <bucket>&quot;NCP&quot;</bucket>
+              <bucket>&quot;RJD&quot;</bucket>
+              <bucket>&quot;VBA&quot;</bucket>
+              <bucket>&quot;YSRCP&quot;</bucket>
+              <bucket>&quot;AITC&quot;</bucket>
+              <bucket>&quot;JD(U)&quot;</bucket>
+              <bucket>&quot;TRS&quot;</bucket>
+              <bucket>&quot;JAPL&quot;</bucket>
+              <bucket>&quot;DMK&quot;</bucket>
+              <bucket>&quot;CPI(ML)(L)&quot;</bucket>
+              <bucket>&quot;JVM&quot;</bucket>
+              <bucket>&quot;PMK&quot;</bucket>
+              <bucket>&quot;SWP&quot;</bucket>
+              <bucket>&quot;BLSP&quot;</bucket>
+              <bucket>&quot;NTK&quot;</bucket>
+              <bucket>&quot;DMDK&quot;</bucket>
+              <bucket>&quot;AIMIM&quot;</bucket>
+              <bucket>&quot;LJP&quot;</bucket>
+              <bucket>&quot;AIADMK&quot;</bucket>
+              <bucket>&quot;SAD&quot;</bucket>
+              <bucket>&quot;BTP&quot;</bucket>
+              <bucket>&quot;AIUDF&quot;</bucket>
+              <bucket>&quot;LIP&quot;</bucket>
+              <bucket>&quot;TDP&quot;</bucket>
+              <bucket>&quot;SDPI&quot;</bucket>
+              <bucket>&quot;JDL&quot;</bucket>
+              <bucket>&quot;AAP&quot;</bucket>
+              <bucket>&quot;JnP&quot;</bucket>
+              <bucket>&quot;RSP&quot;</bucket>
+              <bucket>&quot;PSPL&quot;</bucket>
+              <bucket>&quot;MSHP&quot;</bucket>
+              <bucket>&quot;VSIP&quot;</bucket>
+              <bucket>&quot;MNM&quot;</bucket>
+              <bucket>&quot;JNJP&quot;</bucket>
+              <bucket>&quot;JMM&quot;</bucket>
+              <bucket>&quot;BDJS&quot;</bucket>
+              <bucket>&quot;VCK&quot;</bucket>
+              <bucket>&quot;SBSP&quot;</bucket>
+              <bucket>&quot;RSPSR&quot;</bucket>
+              <bucket>&quot;KEC&quot;</bucket>
+              <bucket>&quot;JKNPP&quot;</bucket>
+              <bucket>&quot;JD(S)&quot;</bucket>
+              <bucket>&quot;IUML&quot;</bucket>
+              <bucket>&quot;HAMS&quot;</bucket>
+              <bucket>&quot;BVA&quot;</bucket>
+              <bucket>&quot;AIFB&quot;</bucket>
+              <bucket>&quot;SUCI(C)&quot;</bucket>
+              <bucket>&quot;RLD&quot;</bucket>
+              <bucket>&quot;JANADIP&quot;</bucket>
+              <bucket>&quot;AJSUP&quot;</bucket>
+              <bucket>&quot;ADAL&quot;</bucket>
+              <bucket>&quot;ABGP&quot;</bucket>
+              <bucket>&quot;TJS&quot;</bucket>
+              <bucket>&quot;ravp&quot;</bucket>
+              <bucket>&quot;RAHIS&quot;</bucket>
+              <bucket>&quot;PUNEKP&quot;</bucket>
+              <bucket>&quot;NPEP&quot;</bucket>
+              <bucket>&quot;JKPDP&quot;</bucket>
+              <bucket>&quot;JKP&quot;</bucket>
+              <bucket>&quot;JKN&quot;</bucket>
+              <bucket>&quot;INLD&quot;</bucket>
+              <bucket>&quot;CPIM&quot;</bucket>
+              <bucket>&quot;BNDl&quot;</bucket>
+              <bucket>&quot;BJD&quot;</bucket>
+              <bucket>&quot;APoI&quot;</bucket>
+              <bucket>&quot;AHNP&quot;</bucket>
+              <bucket>&quot;AHFBK&quot;</bucket>
+              <bucket>&quot;AGP&quot;</bucket>
+              <bucket>&quot;AAM&quot;</bucket>
+              <bucket>&quot;YKP&quot;</bucket>
+              <bucket>&quot;WPOI&quot;</bucket>
+              <bucket>&quot;WAP&quot;</bucket>
+              <bucket>&quot;VPI&quot;</bucket>
+              <bucket>&quot;VCSMP&quot;</bucket>
+              <bucket>&quot;UPPL&quot;</bucket>
+              <bucket>&quot;UDP&quot;</bucket>
+              <bucket>&quot;TMC(M)&quot;</bucket>
+              <bucket>&quot;SSD&quot;</bucket>
+              <bucket>&quot;SPL&quot;</bucket>
+              <bucket>&quot;SKM&quot;</bucket>
+              <bucket>&quot;SJDD&quot;</bucket>
+              <bucket>&quot;SDF&quot;</bucket>
+              <bucket>&quot;SAD(M)&quot;</bucket>
+              <bucket>&quot;RVNP&quot;</bucket>
+              <bucket>&quot;RTORP&quot;</bucket>
+              <bucket>&quot;RSOSP&quot;</bucket>
+              <bucket>&quot;RMPOI&quot;</bucket>
+              <bucket>&quot;RLTP&quot;</bucket>
+              <bucket>&quot;PRISMP&quot;</bucket>
+              <bucket>&quot;PPID&quot;</bucket>
+              <bucket>&quot;PPA&quot;</bucket>
+              <bucket>&quot;PMP&quot;</bucket>
+              <bucket>&quot;PHJSP&quot;</bucket>
+              <bucket>&quot;PDP&quot;</bucket>
+              <bucket>&quot;NPF&quot;</bucket>
+              <bucket>&quot;NEINDP&quot;</bucket>
+              <bucket>&quot;NDPP&quot;</bucket>
+              <bucket>&quot;NAWPP&quot;</bucket>
+              <bucket>&quot;MOSP&quot;</bucket>
+              <bucket>&quot;MNF&quot;</bucket>
+              <bucket>&quot;MADP&quot;</bucket>
+              <bucket>&quot;LTSP&quot;</bucket>
+              <bucket>&quot;KEC(M)&quot;</bucket>
+              <bucket>&quot;JPC&quot;</bucket>
+              <bucket>&quot;JHP&quot;</bucket>
+              <bucket>&quot;JDR&quot;</bucket>
+              <bucket>&quot;IPFT&quot;</bucket>
+              <bucket>&quot;GGP&quot;</bucket>
+              <bucket>&quot;DSSP&quot;</bucket>
+              <bucket>&quot;BSCP&quot;</bucket>
+              <bucket>&quot;BRPI&quot;</bucket>
+              <bucket>&quot;BOPF&quot;</bucket>
+              <bucket>&quot;BMUP&quot;</bucket>
+              <bucket>&quot;BLSD&quot;</bucket>
+              <bucket>&quot;BLRP&quot;</bucket>
+              <bucket>&quot;BJKVP&quot;</bucket>
+              <bucket>&quot;BBMP&quot;</bucket>
+              <bucket>&quot;BARESP&quot;</bucket>
+              <bucket>&quot;ASDC&quot;</bucket>
+              <bucket>&quot;ANC&quot;</bucket>
+              <bucket>&quot;AKBMP&quot;</bucket>
+              <bucket>&quot;AJPR&quot;</bucket>
+              <bucket>&quot;AIPF&quot;</bucket>
+              <bucket>&quot;AINRC&quot;</bucket>
+              <bucket>&quot;ABSKP&quot;</bucket>
+              <bucket>&quot;NOTA&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0l48i4p169rord10mpow21ptv2f1].[none:Party:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.0l48i4p169rord10mpow21ptv2f1].[sum:CRIMINAL CASES:qk]' field-type='quantitative' fold='true' scope='cols' type='space' />
+            <format attr='display' class='1' field='[federated.0l48i4p169rord10mpow21ptv2f1].[sum:CRIMINAL CASES:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.0l48i4p169rord10mpow21ptv2f1].[sum:CRIMINAL CASES:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.0l48i4p169rord10mpow21ptv2f1].[none:Party:nk]' value='23' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#499894' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0l48i4p169rord10mpow21ptv2f1].[sum:CRIMINAL CASES:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.35082873702049255' />
+                <format attr='mark-color' value='#499894' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0l48i4p169rord10mpow21ptv2f1].[sum:CRIMINAL CASES:qk]' x-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.3953038454055786' />
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-color' value='#499894' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0l48i4p169rord10mpow21ptv2f1].[none:Party:nk]</rows>
+        <cols>([federated.0l48i4p169rord10mpow21ptv2f1].[sum:CRIMINAL CASES:qk] + [federated.0l48i4p169rord10mpow21ptv2f1].[sum:CRIMINAL CASES:qk])</cols>
+      </table>
+      <simple-id uuid='{2CC44C2B-1CAB-471E-8B4B-CDE290C7D02F}' />
+    </worksheet>
+    <worksheet name='Parties Participated'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Indian_Election_2019' name='federated.1hza6es1hcoyhz14le1q10y640u4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hza6es1hcoyhz14le1q10y640u4'>
+            <column datatype='string' name='[Party]' role='dimension' type='nominal' />
+            <column-instance column='[Party]' derivation='CountD' name='[ctd:Party:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1hza6es1hcoyhz14le1q10y640u4].[ctd:Party:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontname='Tableau Medium' fontsize='20'>&lt;</run>
+                <run fontname='Tableau Medium' fontsize='20'>[federated.1hza6es1hcoyhz14le1q10y640u4].[ctd:Party:qk]</run>
+                <run fontname='Tableau Medium' fontsize='20'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{376CA1AC-5CEE-466F-8339-59E7B2BFA09A}' />
+    </worksheet>
+    <worksheet name='Seats won per state'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Indian_Election_2019' name='federated.1hza6es1hcoyhz14le1q10y640u4' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1hza6es1hcoyhz14le1q10y640u4'>
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='integer' name='[Winner]' role='measure' type='quantitative' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Winner]' derivation='Sum' name='[sum:Winner:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1hza6es1hcoyhz14le1q10y640u4].[sum:Winner:qk]' palette='purple_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1hza6es1hcoyhz14le1q10y640u4].[sum:Winner:qk]' />
+              <text column='[federated.1hza6es1hcoyhz14le1q10y640u4].[sum:Winner:qk]' />
+              <lod column='[federated.1hza6es1hcoyhz14le1q10y640u4].[none:State:nk]' />
+              <geometry column='[federated.1hza6es1hcoyhz14le1q10y640u4].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1hza6es1hcoyhz14le1q10y640u4].[Latitude (generated)]</rows>
+        <cols>[federated.1hza6es1hcoyhz14le1q10y640u4].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{2057C59C-46DB-49E5-B52D-02CEEAE92F01}' />
+    </worksheet>
+    <worksheet name='Sheet 10'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9605D545-87D4-4CA9-A103-D788A1701BE1}' />
+    </worksheet>
+    <worksheet name='Total Candidates'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Indian_Election_2019' name='federated.1hza6es1hcoyhz14le1q10y640u4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hza6es1hcoyhz14le1q10y640u4'>
+            <column datatype='string' name='[Candidate]' role='dimension' type='nominal' />
+            <column-instance column='[Candidate]' derivation='CountD' name='[ctd:Candidate:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1hza6es1hcoyhz14le1q10y640u4].[ctd:Candidate:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontname='Tableau Medium' fontsize='20'>&lt;</run>
+                <run fontname='Tableau Medium' fontsize='20'>[federated.1hza6es1hcoyhz14le1q10y640u4].[ctd:Candidate:qk]</run>
+                <run fontname='Tableau Medium' fontsize='20'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F5A40B39-FBC4-41A6-89FF-0F48B91A1901}' />
+    </worksheet>
+    <worksheet name='Total Votes Cast'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Indian_Election_2019' name='federated.1hza6es1hcoyhz14le1q10y640u4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hza6es1hcoyhz14le1q10y640u4'>
+            <column datatype='integer' name='[Total Votes]' role='measure' type='quantitative' />
+            <column-instance column='[Total Votes]' derivation='Sum' name='[sum:Total Votes:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1hza6es1hcoyhz14le1q10y640u4].[sum:Total Votes:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontname='Tableau Medium' fontsize='20'>&lt;</run>
+                <run fontname='Tableau Medium' fontsize='20'>[federated.1hza6es1hcoyhz14le1q10y640u4].[sum:Total Votes:qk]</run>
+                <run fontname='Tableau Medium' fontsize='20'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{34E3BBD8-EFF1-4A0D-941C-5FDD25051E13}' />
+    </worksheet>
+    <worksheet name='Vote % by Age Group'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Indian_Election_2019' name='federated.1hza6es1hcoyhz14le1q10y640u4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hza6es1hcoyhz14le1q10y640u4'>
+            <column datatype='real' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Age group' datatype='string' name='[Calculation_1238771375310983174]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &gt;= 18 AND [Age] &lt;= 25 THEN &quot;18–25&quot;&#13;&#10;ELSEIF [Age] &gt;= 26 AND [Age] &lt;= 35 THEN &quot;26–35&quot;&#13;&#10;ELSEIF [Age] &gt;= 36 AND [Age] &lt;= 45 THEN &quot;36–45&quot;&#13;&#10;ELSEIF [Age] &gt;= 46 AND [Age] &lt;= 60 THEN &quot;46–60&quot;&#13;&#10;ELSEIF [Age] &gt; 60 THEN &quot;60+&quot;&#13;&#10;ELSE &quot;Unknown&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='integer' name='[Total Votes]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1238771375310983174]' derivation='None' name='[none:Calculation_1238771375310983174:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Votes]' derivation='Sum' name='[pcto:sum:Total Votes:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Total Votes]' derivation='Sum' name='[sum:Total Votes:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1hza6es1hcoyhz14le1q10y640u4].[sum:Total Votes:qk]' palette='blue_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1hza6es1hcoyhz14le1q10y640u4].[sum:Total Votes:qk]' />
+              <size column='[federated.1hza6es1hcoyhz14le1q10y640u4].[sum:Total Votes:qk]' />
+              <text column='[federated.1hza6es1hcoyhz14le1q10y640u4].[none:Calculation_1238771375310983174:nk]' />
+              <text column='[federated.1hza6es1hcoyhz14le1q10y640u4].[pcto:sum:Total Votes:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575' fontname='Tableau Semibold'>Age group:&#9;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575' fontname='Tableau Semibold'>% of Total Total Votes along Table (Down):	</run>
+                <run bold='true' fontname='Tableau Semibold'><![CDATA[<[federated.1hza6es1hcoyhz14le1q10y640u4].[pcto:sum:Total Votes:qk:2]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575' fontname='Tableau Semibold'>Total Votes:&#9;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{74930D16-990E-4F32-929A-1CE807E25CB9}' />
+    </worksheet>
+    <worksheet name='Votes by Gender'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Indian_Election_2019' name='federated.1hza6es1hcoyhz14le1q10y640u4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hza6es1hcoyhz14le1q10y640u4'>
+            <column caption='AVG(0)' datatype='real' name='[Calculation_1238771375307866117]' role='measure' type='quantitative' user:unnamed='Votes by Gender'>
+              <calculation class='tableau' formula='AVG(0)' />
+            </column>
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total Votes]' role='measure' type='quantitative' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Votes]' derivation='Sum' name='[pcto:sum:Total Votes:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Total Votes]' derivation='Sum' name='[sum:Total Votes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1238771375307866117]' derivation='User' name='[usr:Calculation_1238771375307866117:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.1hza6es1hcoyhz14le1q10y640u4].[usr:Calculation_1238771375307866117:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <format attr='display' class='0' field='[federated.1hza6es1hcoyhz14le1q10y640u4].[usr:Calculation_1238771375307866117:qk]' scope='rows' value='false' />
+            <format attr='display' class='1' field='[federated.1hza6es1hcoyhz14le1q10y640u4].[usr:Calculation_1238771375307866117:qk]' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <customized-label>
+              <formatted-text>
+                <run fontname='Tableau Semibold' fontsize='10'><![CDATA[<[federated.1hza6es1hcoyhz14le1q10y640u4].[none:Gender:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontname='Tableau Semibold' fontsize='10'><![CDATA[<[federated.1hza6es1hcoyhz14le1q10y640u4].[pcto:sum:Total Votes:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1hza6es1hcoyhz14le1q10y640u4].[usr:Calculation_1238771375307866117:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1hza6es1hcoyhz14le1q10y640u4].[none:Gender:nk]' />
+              <text column='[federated.1hza6es1hcoyhz14le1q10y640u4].[none:Gender:nk]' />
+              <text column='[federated.1hza6es1hcoyhz14le1q10y640u4].[pcto:sum:Total Votes:qk]' />
+              <tooltip column='[federated.1hza6es1hcoyhz14le1q10y640u4].[sum:Total Votes:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontname='Tableau Semibold' fontsize='10'><![CDATA[<[federated.1hza6es1hcoyhz14le1q10y640u4].[none:Gender:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontname='Tableau Semibold' fontsize='10'><![CDATA[<[federated.1hza6es1hcoyhz14le1q10y640u4].[pcto:sum:Total Votes:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.637182354927063' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1hza6es1hcoyhz14le1q10y640u4].[usr:Calculation_1238771375307866117:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='0.75762432813644409' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1hza6es1hcoyhz14le1q10y640u4].[usr:Calculation_1238771375307866117:qk] + [federated.1hza6es1hcoyhz14le1q10y640u4].[usr:Calculation_1238771375307866117:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{1418BE13-1A4D-4A18-98F9-CBD561F663C2}' />
+    </worksheet>
+    <worksheet name='Winner Candidates'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Indian_Election_2019' name='federated.1hza6es1hcoyhz14le1q10y640u4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hza6es1hcoyhz14le1q10y640u4'>
+            <column datatype='string' name='[Candidate]' role='dimension' type='nominal' />
+            <column-instance column='[Candidate]' derivation='CountD' name='[ctd:Candidate:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1hza6es1hcoyhz14le1q10y640u4].[ctd:Candidate:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{2368A31D-074D-47EA-A12E-3A964971DDBC}' />
+    </worksheet>
+    <worksheet name='Winning Rate by Party'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontsize='16'>Winning Rate by Party</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Cleaned_Indian_Election_2019' name='federated.0l48i4p169rord10mpow21ptv2f1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0l48i4p169rord10mpow21ptv2f1'>
+            <column caption='Winning Rate' datatype='real' name='[Calculation_787285511942340610]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Winner]) / COUNT([Candidate]) * 100' />
+            </column>
+            <column caption='Candidates per Party' datatype='integer' name='[Calculation_787285511947452419]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Candidate])' />
+            </column>
+            <column datatype='string' name='[Candidate]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Party]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Winner]' role='measure' type='quantitative' />
+            <column-instance column='[Party]' derivation='None' name='[none:Party:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_787285511942340610]' derivation='User' name='[pcto:usr:Calculation_787285511942340610:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_787285511942340610]' derivation='User' name='[usr:Calculation_787285511942340610:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_787285511947452419]' derivation='User' name='[usr:Calculation_787285511947452419:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0l48i4p169rord10mpow21ptv2f1].[none:Party:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='[Calculation_787285511942340610]' function='order' user:ui-marker='order'>
+                <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;AAP&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;AIADMK&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;AITC&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;APoI&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;BJD&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;BJP&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;BLSP&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;BMUP&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;BSP&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;CPI(M)&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;CPI(ML)(L)&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;DMK&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;GGP&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;INC&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;IND&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;JD(S)&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;JD(U)&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;JMM&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;JNJP&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;JnP&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;LJP&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;MNM&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;NCP&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;NOTA&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;NPEP&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;NTK&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;PMK&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;RJD&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;RSP&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;SAD&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;SBSP&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;SHS&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;SP&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;TDP&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;TRS&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;VBA&quot;' />
+                  <groupfilter function='member' level='[none:Party:nk]' member='&quot;YSRCP&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0l48i4p169rord10mpow21ptv2f1].[none:Party:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;VCK&quot;</bucket>
+              <bucket>&quot;SKM&quot;</bucket>
+              <bucket>&quot;RLTP&quot;</bucket>
+              <bucket>&quot;NPF&quot;</bucket>
+              <bucket>&quot;NDPP&quot;</bucket>
+              <bucket>&quot;MNF&quot;</bucket>
+              <bucket>&quot;LJP&quot;</bucket>
+              <bucket>&quot;KEC(M)&quot;</bucket>
+              <bucket>&quot;JKN&quot;</bucket>
+              <bucket>&quot;IUML&quot;</bucket>
+              <bucket>&quot;DMK&quot;</bucket>
+              <bucket>&quot;AJSUP&quot;</bucket>
+              <bucket>&quot;ADAL&quot;</bucket>
+              <bucket>&quot;JD(U)&quot;</bucket>
+              <bucket>&quot;YSRCP&quot;</bucket>
+              <bucket>&quot;BJP&quot;</bucket>
+              <bucket>&quot;SHS&quot;</bucket>
+              <bucket>&quot;AIMIM&quot;</bucket>
+              <bucket>&quot;TRS&quot;</bucket>
+              <bucket>&quot;BJD&quot;</bucket>
+              <bucket>&quot;AITC&quot;</bucket>
+              <bucket>&quot;AIUDF&quot;</bucket>
+              <bucket>&quot;NCP&quot;</bucket>
+              <bucket>&quot;SAD&quot;</bucket>
+              <bucket>&quot;RSP&quot;</bucket>
+              <bucket>&quot;NPEP&quot;</bucket>
+              <bucket>&quot;JMM&quot;</bucket>
+              <bucket>&quot;SP&quot;</bucket>
+              <bucket>&quot;INC&quot;</bucket>
+              <bucket>&quot;TDP&quot;</bucket>
+              <bucket>&quot;JD(S)&quot;</bucket>
+              <bucket>&quot;BSP&quot;</bucket>
+              <bucket>&quot;CPI(M)&quot;</bucket>
+              <bucket>&quot;AIADMK&quot;</bucket>
+              <bucket>&quot;AAP&quot;</bucket>
+              <bucket>&quot;IND&quot;</bucket>
+              <bucket>&quot;YKP&quot;</bucket>
+              <bucket>&quot;WPOI&quot;</bucket>
+              <bucket>&quot;WAP&quot;</bucket>
+              <bucket>&quot;VSIP&quot;</bucket>
+              <bucket>&quot;VPI&quot;</bucket>
+              <bucket>&quot;VCSMP&quot;</bucket>
+              <bucket>&quot;VBA&quot;</bucket>
+              <bucket>&quot;UPPL&quot;</bucket>
+              <bucket>&quot;UDP&quot;</bucket>
+              <bucket>&quot;TMC(M)&quot;</bucket>
+              <bucket>&quot;TJS&quot;</bucket>
+              <bucket>&quot;SWP&quot;</bucket>
+              <bucket>&quot;SUCI(C)&quot;</bucket>
+              <bucket>&quot;SSD&quot;</bucket>
+              <bucket>&quot;SPL&quot;</bucket>
+              <bucket>&quot;SJDD&quot;</bucket>
+              <bucket>&quot;SDPI&quot;</bucket>
+              <bucket>&quot;SDF&quot;</bucket>
+              <bucket>&quot;SBSP&quot;</bucket>
+              <bucket>&quot;SAD(M)&quot;</bucket>
+              <bucket>&quot;RVNP&quot;</bucket>
+              <bucket>&quot;RTORP&quot;</bucket>
+              <bucket>&quot;RSPSR&quot;</bucket>
+              <bucket>&quot;RSOSP&quot;</bucket>
+              <bucket>&quot;RMPOI&quot;</bucket>
+              <bucket>&quot;RLD&quot;</bucket>
+              <bucket>&quot;RJD&quot;</bucket>
+              <bucket>&quot;ravp&quot;</bucket>
+              <bucket>&quot;RAHIS&quot;</bucket>
+              <bucket>&quot;PUNEKP&quot;</bucket>
+              <bucket>&quot;PSPL&quot;</bucket>
+              <bucket>&quot;PRISMP&quot;</bucket>
+              <bucket>&quot;PPID&quot;</bucket>
+              <bucket>&quot;PPA&quot;</bucket>
+              <bucket>&quot;PMP&quot;</bucket>
+              <bucket>&quot;PMK&quot;</bucket>
+              <bucket>&quot;PHJSP&quot;</bucket>
+              <bucket>&quot;PDP&quot;</bucket>
+              <bucket>&quot;NTK&quot;</bucket>
+              <bucket>&quot;NOTA&quot;</bucket>
+              <bucket>&quot;NEINDP&quot;</bucket>
+              <bucket>&quot;NAWPP&quot;</bucket>
+              <bucket>&quot;MSHP&quot;</bucket>
+              <bucket>&quot;MOSP&quot;</bucket>
+              <bucket>&quot;MNM&quot;</bucket>
+              <bucket>&quot;MADP&quot;</bucket>
+              <bucket>&quot;LTSP&quot;</bucket>
+              <bucket>&quot;LIP&quot;</bucket>
+              <bucket>&quot;KEC&quot;</bucket>
+              <bucket>&quot;JVM&quot;</bucket>
+              <bucket>&quot;JPC&quot;</bucket>
+              <bucket>&quot;JnP&quot;</bucket>
+              <bucket>&quot;JNJP&quot;</bucket>
+              <bucket>&quot;JKPDP&quot;</bucket>
+              <bucket>&quot;JKP&quot;</bucket>
+              <bucket>&quot;JKNPP&quot;</bucket>
+              <bucket>&quot;JHP&quot;</bucket>
+              <bucket>&quot;JDR&quot;</bucket>
+              <bucket>&quot;JDL&quot;</bucket>
+              <bucket>&quot;JAPL&quot;</bucket>
+              <bucket>&quot;JANADIP&quot;</bucket>
+              <bucket>&quot;IPFT&quot;</bucket>
+              <bucket>&quot;INLD&quot;</bucket>
+              <bucket>&quot;HAMS&quot;</bucket>
+              <bucket>&quot;GGP&quot;</bucket>
+              <bucket>&quot;DSSP&quot;</bucket>
+              <bucket>&quot;DMDK&quot;</bucket>
+              <bucket>&quot;CPIM&quot;</bucket>
+              <bucket>&quot;CPI(ML)(L)&quot;</bucket>
+              <bucket>&quot;BVA&quot;</bucket>
+              <bucket>&quot;BTP&quot;</bucket>
+              <bucket>&quot;BSCP&quot;</bucket>
+              <bucket>&quot;BRPI&quot;</bucket>
+              <bucket>&quot;BOPF&quot;</bucket>
+              <bucket>&quot;BNDl&quot;</bucket>
+              <bucket>&quot;BMUP&quot;</bucket>
+              <bucket>&quot;BLSP&quot;</bucket>
+              <bucket>&quot;BLSD&quot;</bucket>
+              <bucket>&quot;BLRP&quot;</bucket>
+              <bucket>&quot;BJKVP&quot;</bucket>
+              <bucket>&quot;BDJS&quot;</bucket>
+              <bucket>&quot;BBMP&quot;</bucket>
+              <bucket>&quot;BARESP&quot;</bucket>
+              <bucket>&quot;ASDC&quot;</bucket>
+              <bucket>&quot;APoI&quot;</bucket>
+              <bucket>&quot;ANC&quot;</bucket>
+              <bucket>&quot;AKBMP&quot;</bucket>
+              <bucket>&quot;AJPR&quot;</bucket>
+              <bucket>&quot;AIPF&quot;</bucket>
+              <bucket>&quot;AINRC&quot;</bucket>
+              <bucket>&quot;AIFB&quot;</bucket>
+              <bucket>&quot;AHNP&quot;</bucket>
+              <bucket>&quot;AHFBK&quot;</bucket>
+              <bucket>&quot;AGP&quot;</bucket>
+              <bucket>&quot;ABSKP&quot;</bucket>
+              <bucket>&quot;ABGP&quot;</bucket>
+              <bucket>&quot;AAM&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='quantitative' column='[federated.0l48i4p169rord10mpow21ptv2f1].[usr:Calculation_787285511947452419:qk]' included-values='in-range'>
+            <min>5</min>
+          </filter>
+          <slices>
+            <column>[federated.0l48i4p169rord10mpow21ptv2f1].[usr:Calculation_787285511947452419:qk]</column>
+            <column>[federated.0l48i4p169rord10mpow21ptv2f1].[none:Party:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0l48i4p169rord10mpow21ptv2f1].[usr:Calculation_787285511942340610:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.0l48i4p169rord10mpow21ptv2f1].[pcto:usr:Calculation_787285511942340610:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0l48i4p169rord10mpow21ptv2f1].[usr:Calculation_787285511942340610:qk]' value='' />
+            <format attr='text-format' field='[federated.0l48i4p169rord10mpow21ptv2f1].[pcto:usr:Calculation_787285511942340610:qk]' value='' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0l48i4p169rord10mpow21ptv2f1].[usr:Calculation_787285511942340610:qk]' palette='purple_10_0' type='interpolated' />
+            <encoding attr='color' field='[federated.0l48i4p169rord10mpow21ptv2f1].[pcto:usr:Calculation_787285511942340610:qk]' palette='purple_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='color' value='#ffffff' />
+            <format attr='in-tooltip' field='[federated.0l48i4p169rord10mpow21ptv2f1].[usr:Calculation_787285511942340610:qk]' value='false' />
+            <format attr='in-tooltip' field='[federated.0l48i4p169rord10mpow21ptv2f1].[pcto:usr:Calculation_787285511942340610:qk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0l48i4p169rord10mpow21ptv2f1].[usr:Calculation_787285511942340610:qk]' />
+              <text column='[federated.0l48i4p169rord10mpow21ptv2f1].[pcto:usr:Calculation_787285511942340610:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0l48i4p169rord10mpow21ptv2f1].[none:Party:nk]</rows>
+        <cols>[federated.0l48i4p169rord10mpow21ptv2f1].[usr:Calculation_787285511942340610:qk]</cols>
+      </table>
+      <simple-id uuid='{5DBA15EA-8B07-4BA7-9C3C-1FAF3F179960}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='900' maxwidth='1600' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98122' id='3' is-scaled='1' param='C:/Users/GODFATHER07/Downloads/HR background.pptx.png' type-v2='bitmap' w='99000' x='500' y='939'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='13263' id='9' param='horz' type-v2='layout-flow' w='77375' x='4938' y='11502' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='8' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98122' id='7' param='vert' type-v2='layout-flow' w='99000' x='500' y='939'>
+                <zone fixed-size='280' h='98122' id='3' is-fixed='true' is-scaled='1' param='C:/Users/GODFATHER07/Downloads/HR background.pptx.png' type-v2='bitmap' w='99000' x='500' y='939'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{BAEC1348-AF62-4505-9389-3461B3AD939D}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='63'>
+    <window class='worksheet' name='Total Votes Cast'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{ADFD69BE-7453-4E0D-AD7A-E6E72AFD8220}' />
+    </window>
+    <window class='worksheet' name='Total Candidates'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D5200027-3797-4F8B-ADF7-5FD4D0583DCB}' />
+    </window>
+    <window class='worksheet' name='Parties Participated'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{389D0EA4-E45C-4604-A9F3-B66AB91CCF99}' />
+    </window>
+    <window class='worksheet' name='Winner Candidates'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{031E8E67-C78A-41CB-99BA-370270909286}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints />
+      <active id='3' />
+      <simple-id uuid='{D39A0E2C-D5DD-4B56-9BA8-8296185E93F5}' />
+    </window>
+    <window class='worksheet' name='Votes by Gender'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1hza6es1hcoyhz14le1q10y640u4].[none:Gender:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{31B85F7A-0516-4B4B-8124-9D2D86C5D062}' />
+    </window>
+    <window class='worksheet' name='Vote % by Age Group'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1hza6es1hcoyhz14le1q10y640u4].[sum:Total Votes:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{41402AD1-E153-4004-9BE7-9C0C8D1446FD}' />
+    </window>
+    <window class='worksheet' name='Seats won per state'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1hza6es1hcoyhz14le1q10y640u4].[sum:Winner:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{16F2EEEF-197D-41E6-B6FA-40DD3A610B50}' />
+    </window>
+    <window class='worksheet' name='Criminal Cases by Party'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7A19065A-B0AA-4121-B9EC-7311889E53E7}' />
+    </window>
+    <window class='worksheet' name='Winning Rate by Party'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0l48i4p169rord10mpow21ptv2f1].[usr:Calculation_787285511942340610:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F624EECA-016E-4D63-8074-C9B9C00C3CE3}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 10'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='30'>
+            <card type='columns' />
+          </strip>
+          <strip size='30'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6F5AEE18-C3A8-40A0-BBA7-69DDEC900039}' />
+    </window>
+  </windows>
+</workbook>
